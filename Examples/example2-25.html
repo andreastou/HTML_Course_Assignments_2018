@@ -2,17 +2,59 @@
 <html lang="el">
 <head>
     <meta charset="utf-8">
-    <title>Λίστα Ορισμών</title>
+    <title>Div και Span</title>
+    <style>
+        #header {
+            width: 100%;
+            height: 100px;
+            background-color: lightgray;
+        }
+
+        #logo {
+            float: left;
+            background-color: lightblue;
+        }
+
+        #languageBar {
+            background-color: lightgreen;
+            float: right;
+        }
+
+        #navigationBar {
+            background-color: yellow;
+        }
+
+        .myCode {
+            font-family: monospace;
+            font-style: italic;
+            color: blue;
+            background-color: lightgray;
+        }
+    </style>
 </head>
 
 <body>
-    <dl>
-        <dt> Λίστες Ορισμών </dt>
-        <dd>Αποτελούν λίστες που αποτελούνται από 2 μέρη: τον όρο (term) και την περιγραφή του (description)</dd>
-        <dt>Μη αριθμημένες Λίστες</dt>
-        <dd>Αποτελούν λίστες τα στοιχεία των οποίων δεν έχουν ορισμένη σειρά (αρίθμηση). Με CSS μπορεί να ρυθμιστεί το γραφικό που προηγείται του στοιχείου.</dd>
-        <dt>Αριθμημένες Λίστες </dt>
-        <dd>Αποτελούν λίστες τα στοιχεία των οποίων έχουν ορισμένη σειρά (αρίθμηση). Με CSS μπορεί να ρυθμιστεί το γραφικό που προηγείται του στοιχείου καθώς και ο αριθμός έναρξης της αρίθμησης.</dd>
-    </dl>
+
+    <h1> Παράδειγμα Χρήσης div και span </h1>
+    <p> Με τον παρακάτω κώδικα επιδεικνύεται μια πρακτική δημιουργίας δομής σελίδας κάνοντας χρήση των στοιχείων div. </p>
+    <hr>
+    <h2> Ενότητες με χρήση div</h2>
+    <div id="header">
+        <div id="logo">
+            <img src="logo.png" alt="Logo">
+        </div>
+        <div id="languageBar">
+            Language : <a href="#">Αγγλικά </a> | Ελληνικά
+        </div>
+    </div>
+
+    <div id="navigationBar">
+        Μενού Πλοήγησης : <a href="#">Home</a> | <a href="#">MyCV</a> | <a href="#">MyBlog</a> | Schedule
+    </div>
+
+    <div id="main">
+        <h2> Επίδειξη στοιχείου span</h2>
+        <p>Αυτό είναι το βασικό περιεχόμενο της σελίδας. Σε αυτή την πρόταση επιλέγουμε τη μορφοποίηση της λέξης <span class="myCode">Κώδικας</span> με χρήση του στοιχείου span, θέλωντας να εφαρμόσουμε style μορφοποίησης χωρίς σημασιολογική αξία.
+    </div>
 </body>
 </html>
