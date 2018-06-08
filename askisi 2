@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Σπουδές </title>    
+<meta charset="utf-8">    
+    </head>    
+    <body>
+<p title="Αντικείμενο του τμήματος"> Το αντικείμενο του τμήματος ...</p>        
+<img scr="myPhoto.jpg" alt="Φωτογραφία στη σχολή">
+<a href="http://www.teiath.gr/sdo/lis"> Το τμήμα μου </a>       
+    </body>
+</html>
